@@ -33,7 +33,7 @@
    </script>
    <script>
 let tglNow = new Date();
-let waktuBatas = new Date("2025-04-17T23:59:00");
+let waktuBatas = new Date("2025-04-19T23:59:59");
 if (tglNow.getTime() >= waktuBatas.getTime()) {
   document.location.href = 'https://expiredweb.pages.dev';
 } else {
